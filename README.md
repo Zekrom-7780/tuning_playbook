@@ -365,7 +365,7 @@ will be the largest batch size supported by the available hardware.*
 -   The optimal values of most hyperparameters are sensitive to the batch size.
     Therefore, changing the batch size typically requires starting the tuning
     process all over again.
--   The hyperparameters that interact most strongly with the batch size, and therefore are most important to tune separately for each batch size, are the optimizer hyperparameters (e.g. learning rate, momentum) and the regularization hyperparameters.
+-   **The hyperparameters that interact most strongly with the batch size, and therefore are most important to tune separately for each batch size, are the optimizer hyperparameters (e.g. learning rate, momentum) and the regularization hyperparameters.**
 -   Keep this in mind when choosing the batch size at the start of a project. If
     you need to switch to a different batch size later on, it might be
     difficult, time consuming, and expensive to re-tune everything for the new
